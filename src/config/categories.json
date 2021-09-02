@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "xyz 1",
+    "subCategories": [
+      {
+        "id": 101,
+        "name": "sub category 1"
+      },
+      {
+        "id": 102,
+        "name": "sub category 2"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "category 2",
+    "subCategories": [
+      {
+        "id": 101,
+        "name": "sub category 1"
+      },
+      {
+        "id": 102,
+        "name": "sub category 2"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "category 3",
+    "subCategories": [
+      {
+        "id": 101,
+        "name": "sub category 1"
+      },
+      {
+        "id": 102,
+        "name": "sub category 2"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "abc",
+    "subCategories": [
+      {
+        "id": 601,
+        "name": "abc1"
+      },
+      {
+        "id": 602,
+        "name": "abc2"
+      }
+    ]
+  }
+]

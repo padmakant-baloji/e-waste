@@ -1,0 +1,45 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgba(255, 230, 0, 0.425), rgba(81, 255, 0, 0.45));
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center center;
+
+  .register-page {
+    width: 560px;
+    border-radius: 8px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+    h1 {
+      color: #000;
+      font-size: 18px;
+      text-align: center;
+    }
+    .form {
+      .input-control {
+        padding: 12px 0px;
+        .error {
+          font-size: 8px;
+          color: #f48fb0;
+        }
+      }
+      .btn-container {
+        padding-top: 20px;
+        .btn {
+          padding: 8px 38px;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .register-page {
+      height: 100vh;
+    }
+  }
+}

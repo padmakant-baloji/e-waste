@@ -1,0 +1,47 @@
+.box {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  padding: 40px;
+  border-radius: 8px;
+  background: #fff;
+
+  .heading {
+    border-bottom: 1px solid grey;
+    margin-bottom: 40px;
+  }
+  .form-container {
+  }
+}
+
+.divider-bottom {
+  margin-bottom: 40px !important;
+}
+.divider-top {
+  margin-top: 40px !important;
+}
+.wrapper {
+  width: 70%;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexDiv {
+  display: flex;
+}
+
+.borderBottomBox {
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+.error {
+  font-size: 8px;
+  color: #f48fb0;
+}
